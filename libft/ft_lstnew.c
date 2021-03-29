@@ -33,5 +33,4 @@ t_list	*ft_lstnew(void const *content, size_t content_size)
 	}
 	fresh_link->next = NULL;
 	return (fresh_link);
-	free(fresh_link);
 }
